@@ -7,7 +7,7 @@
     }
 </style>
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-    <img src="../logo.png"  height="25px">
+    <img src="../../logo.png"  height="25px">
     <h2 style="text-align: left; text-decoration: none; background: none; border-radius: 0; border: none; box-shadow: none; color: #4B5563; font-size: 18px; font-weight: 800; padding-left: 0; margin-top: 10px; text-transform: uppercase">Conquer FreeCodeCamp Course</h2>
     
 </div>
@@ -154,7 +154,7 @@ We learned that not all CSS features especially modern features are supported by
 
 ```css
 div {
-    background-color: 'gray'; /* this is the fallback for Internet Explorer and other browsers that don't support variables */
+    background-color: gray; /* this is the fallback for Internet Explorer and other browsers that don't support variables */
 
     background-color: var(--background-color, 'gray') /* the second value here 'gray' is used as a fallback for the --background-color variable incase if it's not set */
 }

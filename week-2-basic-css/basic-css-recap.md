@@ -146,7 +146,7 @@ We learned that not all CSS features especially modern features are supported by
 
 ```css
 div {
-    background-color: 'gray'; /* this is the fallback for Internet Explorer and other browsers that don't support variables */
+    background-color: gray; /* this is the fallback for Internet Explorer and other browsers that don't support variables */
 
     background-color: var(--background-color, 'gray') /* the second value here 'gray' is used as a fallback for the --background-color variable incase if it's not set */
 }
