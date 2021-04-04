@@ -1,3 +1,11 @@
+<style>
+    body {
+        padding-top: 0;
+        color: #374151;
+        line-height: 2;
+        letter-spacing: 0.4px;
+    }
+</style>
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
     <img src="../logo.png"  height="25px">
     <h2 style="text-align: left; text-decoration: none; background: none; border-radius: 0; border: none; box-shadow: none; color: #4B5563; font-size: 18px; font-weight: 800; padding-left: 0; margin-top: 10px; text-transform: uppercase">Conquer FreeCodeCamp Course</h2>
